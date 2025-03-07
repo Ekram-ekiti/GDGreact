@@ -1,0 +1,73 @@
+/* Task Manager Container */
+.task-manager {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input Section */
+.task-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Task List */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.task-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
